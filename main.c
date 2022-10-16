@@ -5,6 +5,7 @@ void create();
 void display();
 void delete();
 void sum();
+void addfirst();
 
 struct node* phead = NULL;
 struct node{
@@ -172,4 +173,8 @@ void sum(){
         }
         printf("0 \n\nJumlah data : %d", sum);
     }
+}
+
+void addfirst(){
+    printf("test");
 }
