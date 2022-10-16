@@ -6,6 +6,7 @@ void display();
 void delete();
 void sum();
 void addfirst();
+void addafter();
 
 struct node* phead = NULL;
 struct node{
@@ -176,5 +177,9 @@ void sum(){
 }
 
 void addfirst(){
+    printf("test");
+}
+
+void addafter(){
     printf("test");
 }
